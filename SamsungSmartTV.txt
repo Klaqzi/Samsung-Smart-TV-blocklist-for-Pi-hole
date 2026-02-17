@@ -1,6 +1,44 @@
 # Samsung
 
-ichnaea.netflix.com # preview for shows on netflix
+ichnaea.netflix.com		# preview for shows on netflix
+customerevents.netflix.com	# alias of beacon.netflix.com, used for telemetry, logging and analytical data
+logs.netflix.com		# telemetry etc.
+www.google-analytics.com	# telemetry etc.
+
+images.ardmediathek.de		# ARD
+hbbtv.zdf.de			# ZDF
+images-0.wuaki.tv		# RakutenTV
+images-1.wuaki.tv
+images-2.wuaki.tv
+images-3.wuaki.tv
+img.welt.de			# Welt.de
+www.welt.de
+cdn10.itsmy.tv			# itsmy.TV, according to google its for games, cant find any news newer than 2014, seems to be dead??
+cdn11.itsmy.tv
+cdn12.itsmy.tv
+cdn13.itsmy.tv
+cdn14.itsmy.tv
+cdn15.itsmy.tv
+
+
+sudo sqlite3 /etc/pihole/pihole-FTL.db "select domain, count(1) from queries group by domain order by count(1) desc"
+
+sudo sqlite3 /etc/pihole/pihole-FTL.db "SELECT DISTINCT domain FROM queries WHERE client = '192.168.178.23'"
+
+# watchlist
+
+# cdn-0.nflximg.com		#
+# nrdp.prod.cloud.netflix.com
+# nrdp.nccp.netflix.com
+# occ-0-1556-1555.1.nflxso.net
+# push.prod.netflix.com
+# api-global.netflix.com
+# uiboot.netflix.com
+# www.google-analytics.com
+# nrdp52-appboot.netflix.com
+
+
+# found online:
 
 abtauthprd.samsungcloudsolution.com
 ad.samsungadhub.com
