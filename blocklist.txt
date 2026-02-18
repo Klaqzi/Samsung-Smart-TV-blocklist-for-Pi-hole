@@ -1,18 +1,38 @@
+# Smart-TV Blocklist for Pi-hole
+# Version: 18.02.2026
+# Description: 
+
 # Samsung
 
 ichnaea.netflix.com		# preview for shows on netflix
 customerevents.netflix.com	# alias of beacon.netflix.com, used for telemetry, logging and analytical data
 logs.netflix.com		# telemetry etc.
 www.google-analytics.com	# telemetry etc.
+bpu.samsungelectronics.com	# telemetry
+acr-eu-prd.samsungcloud.tv	# ACR = Automatic Content Recognition, is tracking what you watch, even external content from consoles etc.
+apu.samsungelectronics.com	# ads
+config.samsungads.com		# targeted ads, track user engagement
+oempprd.samsungcloudsolution.com	# manages app installation
+tvx.adgrx.com	# Adgear, owned by Samsung, monitors which content is being watched for targeted advertisements
+
 
 images.ardmediathek.de		# ARD
+audit.nmrodam.com
+
 hbbtv.zdf.de			# ZDF
+
+be.tvengine.hd-plus-cloud.de	# HD+TV Germany, a platform for satelite and internet TV in Germany
+device-manager.hdplus.yottacloud.net
+tvengine.hd-plus-cloud.de
+
 images-0.wuaki.tv		# RakutenTV
 images-1.wuaki.tv
 images-2.wuaki.tv
 images-3.wuaki.tv
+
 img.welt.de			# Welt.de
 www.welt.de
+
 cdn10.itsmy.tv			# itsmy.TV, according to google its for games, cant find any news newer than 2014, seems to be dead??
 cdn11.itsmy.tv
 cdn12.itsmy.tv
@@ -20,10 +40,20 @@ cdn13.itsmy.tv
 cdn14.itsmy.tv
 cdn15.itsmy.tv
 
+41697968db8a7aa24710d53c7d84e7c2.redinuid.imrworldwide.com	# Nielsen, company for marketing research, data analytics
+cde609cab573bb126226c829b0791957.redinuid.imrworldwide.com
 
-sudo sqlite3 /etc/pihole/pihole-FTL.db "select domain, count(1) from queries group by domain order by count(1) desc"
+config-cd-dmgz.bamgrid.com	# Disney Streaming
+disney-curated-partner-feeds-prod.bamgrid.com
 
-sudo sqlite3 /etc/pihole/pihole-FTL.db "SELECT DISTINCT domain FROM queries WHERE client = '192.168.178.23'"
+resources.redbull.tv	# Red Bull TV
+
+sportworld-images.watchmi.tv	# Sportworld
+
+seat-cupra-pk0700-cdn.tvapp-server.de	# Cupra TV-App
+
+schauinsland-pk1937-cdn.tvapp-server.de	# TV-App, i have no idea what its used for
+
 
 # watchlist
 
