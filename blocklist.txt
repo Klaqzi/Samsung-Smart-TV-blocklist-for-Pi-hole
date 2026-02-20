@@ -1,21 +1,30 @@
 # Smart-TV Blocklist for Pi-hole
-# Version: 18.02.2026
-# Description: 
+# Version: 20.02.2026
+# Description: collection of domains used by my Samsung Smart TV for telemetry, tracking, ACR, ads, and unwanted network activity
 
 # Samsung
-
-ichnaea.netflix.com		# preview for shows on netflix
-customerevents.netflix.com	# alias of beacon.netflix.com, used for telemetry, logging and analytical data
-logs.netflix.com		# telemetry etc.
-www.google-analytics.com	# telemetry etc.
 bpu.samsungelectronics.com	# telemetry
+kpu.samsungelectronics.com	# telemetry
+upu.samsungelectronics.com  # telemetry
 acr-eu-prd.samsungcloud.tv	# ACR = Automatic Content Recognition, is tracking what you watch, even external content from consoles etc.
+log-config.samsungacr.com  # ACR
+log-ingestion-eu.samsungacr.com # ACR
 apu.samsungelectronics.com	# ads
 config.samsungads.com		# targeted ads, track user engagement
 oempprd.samsungcloudsolution.com	# manages app installation
 tvx.adgrx.com	# Adgear, owned by Samsung, monitors which content is being watched for targeted advertisements
+empdownprd.samsungcloudsolution.com  # used for tracking, might cause problems with SmartHub
+rtb.adgrx.com	# samsung ads, real-time bidding to deliver targeted ads
 
+# Netflix
+ichnaea.netflix.com		# preview for shows on netflix
+customerevents.netflix.com	# alias of beacon.netflix.com, used for telemetry, logging and analytical data
+logs.netflix.com		# telemetry etc.
 
+# Google / Youtube
+www.google-analytics.com	# telemetry etc.
+
+# German TV
 images.ardmediathek.de		# ARD
 audit.nmrodam.com
 
@@ -25,24 +34,27 @@ be.tvengine.hd-plus-cloud.de	# HD+TV Germany, a platform for satelite and intern
 device-manager.hdplus.yottacloud.net
 tvengine.hd-plus-cloud.de
 
-images-0.wuaki.tv		# RakutenTV
-images-1.wuaki.tv
-images-2.wuaki.tv
-images-3.wuaki.tv
-
 img.welt.de			# Welt.de
 www.welt.de
 
-cdn10.itsmy.tv			# itsmy.TV, according to google its for games, cant find any news newer than 2014, seems to be dead??
+cdn10.itsmy.tv			# itsmy.TV, according to google its for games, cant find any news newer than 2014, seems to be dead?? Also has its origins in Munich.
 cdn11.itsmy.tv
 cdn12.itsmy.tv
 cdn13.itsmy.tv
 cdn14.itsmy.tv
 cdn15.itsmy.tv
 
+# Rakuten TV
+images-0.wuaki.tv
+images-1.wuaki.tv
+images-2.wuaki.tv
+images-3.wuaki.tv
+
+#Nielsen
 41697968db8a7aa24710d53c7d84e7c2.redinuid.imrworldwide.com	# Nielsen, company for marketing research, data analytics
 cde609cab573bb126226c829b0791957.redinuid.imrworldwide.com
 
+#Disney
 config-cd-dmgz.bamgrid.com	# Disney Streaming
 disney-curated-partner-feeds-prod.bamgrid.com
 
@@ -147,4 +159,5 @@ cloud.arqiva.tv
 ads.aimitv.com
 samsungads.com
 gamespromotion.samsungcloudsolution.com
+
 
