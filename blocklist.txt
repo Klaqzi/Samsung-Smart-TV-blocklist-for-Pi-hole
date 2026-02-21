@@ -93,7 +93,6 @@ seat-cupra-pk0700-cdn.tvapp-server.de	# Cupra TV-App
 
 schauinsland-pk1937-cdn.tvapp-server.de	# TV-App, i have no idea what its used for
 
-
 # watchlist
 
 # cdn-0.nflximg.com		#
@@ -106,7 +105,6 @@ schauinsland-pk1937-cdn.tvapp-server.de	# TV-App, i have no idea what its used f
 # www.google-analytics.com
 # nrdp52-appboot.netflix.com
 
-
 # found online:
 
 abtauthprd.samsungcloudsolution.com
@@ -118,7 +116,6 @@ az43064.vo.msecnd.net
 cdn.samsungcloudsolution.net
 connecttv.pelmorex.com # weather app tracking
 Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
-cpu.samsungelectronics.com
 d179kwmlpc4o47.cloudfront.net
 d1jwpcr0q4pcq0.cloudfront.net
 d1oxlq5h9kq8q5.cloudfront.net # app icons in samsung app store
@@ -172,14 +169,6 @@ vd.emp.prd.s3.amazonaws.com
 vdterms.samsungcloudsolution.com
 www.samsungrm.net
 samsungelectronics.com
-apu.samsungelectronics.com
-bpu.samsungelectronics.com
-dpu.samsungelectronics.com
-kpu.samsungelectronics.com
-upu.samsungelectronics.com
-zpu.samsungelectronics.com
-xpu.samsungelectronics.com
-ypu.samsungelectronics.com
 vd.contents.prod.eu.s3.amazonaws.com
 data.arqiva.tv
 cloud.arqiva.tv
@@ -188,5 +177,3 @@ samsungads.com
 gamespromotion.samsungcloudsolution.com
 
 # END
-
-
