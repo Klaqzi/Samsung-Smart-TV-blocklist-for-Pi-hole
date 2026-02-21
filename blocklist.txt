@@ -1,20 +1,47 @@
 # Smart-TV Blocklist for Pi-hole
-# Version: 20.02.2026
+# Version: 21.02.2026
 # Description: collection of domains used by my Samsung Smart TV for telemetry, tracking, ACR, ads, and unwanted network activity
 
 # Samsung
+apu.samsungelectronics.com	# ads, use following regex: [a-z]pu.samsungelectronics.com
 bpu.samsungelectronics.com	# telemetry
-kpu.samsungelectronics.com	# telemetry
-upu.samsungelectronics.com  # telemetry
+cpu.samsungelectronics.com
+dpu.samsungelectronics.com
+epu.samsungelectronics.com
+fpu.samsungelectronics.com
+gpu.samsungelectronics.com
+hpu.samsungelectronics.com
+ipu.samsungelectronics.com
+jpu.samsungelectronics.com
+kpu.samsungelectronics.com
+lpu.samsungelectronics.com
+mpu.samsungelectronics.com
+npu.samsungelectronics.com
+opu.samsungelectronics.com
+ppu.samsungelectronics.com
+qpu.samsungelectronics.com
+rpu.samsungelectronics.com
+spu.samsungelectronics.com
+tpu.samsungelectronics.com
+upu.samsungelectronics.com
+vpu.samsungelectronics.com
+wpu.samsungelectronics.com
+xpu.samsungelectronics.com
+ypu.samsungelectronics.com
+zpu.samsungelectronics.com
 acr-eu-prd.samsungcloud.tv	# ACR = Automatic Content Recognition, is tracking what you watch, even external content from consoles etc.
 log-config.samsungacr.com  # ACR
 log-ingestion-eu.samsungacr.com # ACR
-apu.samsungelectronics.com	# ads
 config.samsungads.com		# targeted ads, track user engagement
 oempprd.samsungcloudsolution.com	# manages app installation
 tvx.adgrx.com	# Adgear, owned by Samsung, monitors which content is being watched for targeted advertisements
 empdownprd.samsungcloudsolution.com  # used for tracking, might cause problems with SmartHub
 rtb.adgrx.com	# samsung ads, real-time bidding to deliver targeted ads
+ocfconnect-shard-eu02-euwest1.samsungiotcloud.com
+otnprd8.samsungcloudsolution.net
+otnprd9.samsungcloudsolution.net
+otnprd10.samsungcloudsolution.net
+otnprd11.samsungcloudsolution.net
 
 # Netflix
 ichnaea.netflix.com		# preview for shows on netflix
@@ -160,5 +187,6 @@ ads.aimitv.com
 samsungads.com
 gamespromotion.samsungcloudsolution.com
 
+# END
 
 
