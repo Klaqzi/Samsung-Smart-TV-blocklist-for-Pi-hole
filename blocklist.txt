@@ -42,6 +42,7 @@ otnprd8.samsungcloudsolution.net
 otnprd9.samsungcloudsolution.net
 otnprd10.samsungcloudsolution.net
 otnprd11.samsungcloudsolution.net
+tvpndynamiclogopeu.samsungcloud.tv
 
 # Netflix
 ichnaea.netflix.com
@@ -85,13 +86,12 @@ cde609cab573bb126226c829b0791957.redinuid.imrworldwide.com
 config-cd-dmgz.bamgrid.com
 disney-curated-partner-feeds-prod.bamgrid.com
 
+#Other Services
 resources.redbull.tv
-
 sportworld-images.watchmi.tv
-
 seat-cupra-pk0700-cdn.tvapp-server.de
-
 schauinsland-pk1937-cdn.tvapp-server.de
+
 
 # watchlist
 

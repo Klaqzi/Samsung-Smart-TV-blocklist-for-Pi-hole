@@ -52,11 +52,12 @@ For each domain:
 | rtb.adgrx.com | Ads | real-time bidding for targeted ads | |
 | oempprd.samsungcloudsolution.com | System | manages app installation | |
 | empdownprd.samsungcloudsolution.com | Tracking | used for tracking | might cause SmartHub issues |
-| ocfconnect-shard-eu02-euwest1.samsungiotcloud.com | — | — | |
-| otnprd8.samsungcloudsolution.net | — | — | |
-| otnprd9.samsungcloudsolution.net | — | — | |
-| otnprd10.samsungcloudsolution.net | — | — | |
-| otnprd11.samsungcloudsolution.net | — | — | |
+| ocfconnect-shard-eu02-euwest1.samsungiotcloud.com | - | - | |
+| otnprd8.samsungcloudsolution.net | - | - | |
+| otnprd9.samsungcloudsolution.net | - | - | |
+| otnprd10.samsungcloudsolution.net | - | - | |
+| otnprd11.samsungcloudsolution.net | - | - | |
+| tvpndynamiclogopeu.samsungcloud.tv | Content Tracking |  | |
 
 ---
 
@@ -64,7 +65,7 @@ For each domain:
 
 | Domain | Category | Description | Notes |
 |--------|----------|-------------|-------|
-| ichnaea.netflix.com | — | preview for shows on Netflix | |
+| ichnaea.netflix.com | - | preview for shows on Netflix | |
 | customerevents.netflix.com | Telemetry | alias of beacon.netflix.com, used for telemetry, logging and analytical data | |
 | logs.netflix.com | Telemetry | telemetry etc. | |
 
@@ -84,25 +85,25 @@ For each domain:
 
 | Domain | Category | Description | Notes |
 |--------|----------|-------------|-------|
-| images.ardmediathek.de | — | ARD | |
-| audit.nmrodam.com | — | — | |
-| hbbtv.zdf.de | — | ZDF | |
-| be.tvengine.hd-plus-cloud.de | — | HD+TV Germany, platform for satellite and internet TV | |
-| device-manager.hdplus.yottacloud.net | — | — | |
-| tvengine.hd-plus-cloud.de | — | — | |
-| img.welt.de | — | Welt.de | |
-| www.welt.de | — | Welt.de | |
+| images.ardmediathek.de | - | ARD | |
+| audit.nmrodam.com | - | - | |
+| hbbtv.zdf.de | - | ZDF | |
+| be.tvengine.hd-plus-cloud.de | - | HD+TV Germany, platform for satellite and internet TV | |
+| device-manager.hdplus.yottacloud.net | - | - | |
+| tvengine.hd-plus-cloud.de | - | - | |
+| img.welt.de | - | Welt.de | |
+| www.welt.de | - | Welt.de | |
 
 ### itsmy.TV
 
 | Domain | Category | Description | Notes |
 |--------|----------|-------------|-------|
-| cdn10.itsmy.tv | — | itsmy.TV, according to Google for games, seems dead since 2014??, origins in Munich | |
-| cdn11.itsmy.tv | — | — | |
-| cdn12.itsmy.tv | — | — | |
-| cdn13.itsmy.tv | — | — | |
-| cdn14.itsmy.tv | — | — | |
-| cdn15.itsmy.tv | — | — | |
+| cdn10.itsmy.tv | - | itsmy.TV, according to Google for games, seems dead since 2014??, origins in Munich | |
+| cdn11.itsmy.tv | - | - | |
+| cdn12.itsmy.tv | - | - | |
+| cdn13.itsmy.tv | - | - | |
+| cdn14.itsmy.tv | - | - | |
+| cdn15.itsmy.tv | - | - | |
 
 ---
 
@@ -110,10 +111,10 @@ For each domain:
 
 | Domain | Category | Description | Notes |
 |--------|----------|-------------|-------|
-| images-0.wuaki.tv | — | — | |
-| images-1.wuaki.tv | — | — | |
-| images-2.wuaki.tv | — | — | |
-| images-3.wuaki.tv | — | — | |
+| images-0.wuaki.tv | - | - | |
+| images-1.wuaki.tv | - | - | |
+| images-2.wuaki.tv | - | - | |
+| images-3.wuaki.tv | - | - | |
 
 ---
 
@@ -122,7 +123,7 @@ For each domain:
 | Domain | Category | Description | Notes |
 |--------|----------|-------------|-------|
 | 41697968db8a7aa24710d53c7d84e7c2.redinuid.imrworldwide.com | Analytics | Nielsen, company for marketing research, data analytics | |
-| cde609cab573bb126226c829b0791957.redinuid.imrworldwide.com | Analytics | — | |
+| cde609cab573bb126226c829b0791957.redinuid.imrworldwide.com | Analytics | - | |
 
 ---
 
@@ -130,8 +131,8 @@ For each domain:
 
 | Domain | Category | Description | Notes |
 |--------|----------|-------------|-------|
-| config-cd-dmgz.bamgrid.com | — | Disney Streaming | |
-| disney-curated-partner-feeds-prod.bamgrid.com | — | — | |
+| config-cd-dmgz.bamgrid.com | - | Disney Streaming | |
+| disney-curated-partner-feeds-prod.bamgrid.com | - | - | |
 
 ---
 
@@ -139,10 +140,11 @@ For each domain:
 
 | Domain | Category | Description | Notes |
 |--------|----------|-------------|-------|
-| resources.redbull.tv | — | Red Bull TV | |
-| sportworld-images.watchmi.tv | — | Sportworld | |
-| seat-cupra-pk0700-cdn.tvapp-server.de | — | Cupra TV-App | |
-| schauinsland-pk1937-cdn.tvapp-server.de | — | TV-App, no idea what it's used for | |
+| resources.redbull.tv | - | Red Bull TV | |
+| sportworld-images.watchmi.tv | - | Sportworld | |
+| seat-cupra-pk0700-cdn.tvapp-server.de | - | Cupra TV-App | |
+| schauinsland-pk1937-cdn.tvapp-server.de | - | TV-App, no idea what it's used for | |
+|  | | | |
 
 
 ## Watchlist
