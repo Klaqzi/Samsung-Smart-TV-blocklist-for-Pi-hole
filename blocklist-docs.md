@@ -145,97 +145,92 @@ For each domain:
 | schauinsland-pk1937-cdn.tvapp-server.de | — | TV-App, no idea what it's used for | |
 
 
-# watchlist
-
-# cdn-0.nflximg.com		#
-# nrdp.prod.cloud.netflix.com
-# nrdp.nccp.netflix.com
-# occ-0-1556-1555.1.nflxso.net
-# push.prod.netflix.com
-# api-global.netflix.com
-# uiboot.netflix.com
-# www.google-analytics.com
-# nrdp52-appboot.netflix.com
+## Watchlist
 
 
-# found online:
-
-abtauthprd.samsungcloudsolution.com
-ad.samsungadhub.com
-ads.samsungads.com
-amauthprd.samsungcloudsolution.com
-api-hub.samsungyosemite.com
-az43064.vo.msecnd.net
-cdn.samsungcloudsolution.net
-connecttv.pelmorex.com # weather app tracking
-Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
-cpu.samsungelectronics.com
-d179kwmlpc4o47.cloudfront.net
-d1jwpcr0q4pcq0.cloudfront.net
-d1oxlq5h9kq8q5.cloudfront.net # app icons in samsung app store
-d2tnx644ijgq6i.cloudfront.net
-d3mjsomixevyw7.cloudfront.net
-d37ju0xanoz6gh.cloudfront.net
-device-metrics-us.amazon.com
-fkp.samsungcloudsolution.com
-fkp.samsungcloudsolution.net
-game.internetat.tv
-gld.samsungosp.com
-#gpm.samsungqbe.com # Numerous connection problems, e.g. #82
-i-stream.pl
-log-1.samsungacr.com
-log-2.samsungacr.com
-log-3.samsungacr.com
-log-ingestion.samsungacr.com
-log-ingestion-eu.samsungacr.com
-log.internetat.tv
-musicid.samsungcloudsolution.com
-notice.samsungcloudsolution.com
-noticecdn.samsungcloudsolution.com
-noticefile.samsungcloudsolution.com
-oempprd.samsungcloudsolution.com
-oempprd.samsungcloudsolution.net
-prderrordumphsm.samsungcloudsolution.com
-openapi.samsung.com
-osb-apps-v2.samsungqbe.com
-osb-krsvc.samsungqbe.com
-osb-eusvc.samsungqbe.com
-osb.samsungqbe.com
-pavv.co.kr
-pipeaota.com
-premium-videos.telly.com
-prov.samsungcloudsolution.com
-rd.samsungadhub.com
-www.samsungotn.net
-samsungacr.com
-samsungadhub.com
-samsungcloudsolution.com
-samsungcloudsolution.net
-samsungqbe.com
-sas.samsungcloudsolution.com
-sca.samsung.com
-sso.internetat.tv # account login
-syncplusconfig.s3.amazonaws.com
-targeted-config-test.samsungacr.com
-test.samsungrm.net
-us-api.samsungyosemite.com
-vd.emp.prd.s3.amazonaws.com
-vdterms.samsungcloudsolution.com
-www.samsungrm.net
-samsungelectronics.com
-apu.samsungelectronics.com
-bpu.samsungelectronics.com
-dpu.samsungelectronics.com
-kpu.samsungelectronics.com
-upu.samsungelectronics.com
-zpu.samsungelectronics.com
-xpu.samsungelectronics.com
-ypu.samsungelectronics.com
-vd.contents.prod.eu.s3.amazonaws.com
-data.arqiva.tv
-cloud.arqiva.tv
-ads.aimitv.com
-samsungads.com
-gamespromotion.samsungcloudsolution.com
+| Domain | Category | Description | Notes |
+|--------|----------|-------------|-------|
+| cdn-0.nflximg.com |  |  |  |
+| nrdp.prod.cloud.netflix.com |  |  |  |
+| nrdp.nccp.netflix.com |  |  |  |
+| occ-0-1556-1555.1.nflxso.net |  |  |  |
+| push.prod.netflix.com |  |  |  |
+| api-global.netflix.com |  |  |  |
+| uiboot.netflix.com |  |  |  |
+| www.google-analytics.com |  |  |  |
+| nrdp52-appboot.netflix.com |  |  |  |
 
 
+## Found online:
+| Domain | Category | Description | Notes |
+|--------|----------|-------------|-------|
+|abtauthprd.samsungcloudsolution.com |  |  |  |
+|ad.samsungadhub.com |  |  |  |
+|ads.samsungads.com |  |  |  |
+|amauthprd.samsungcloudsolution.com |  |  |  |
+|api-hub.samsungyosemite.com |  |  |  |
+|az43064.vo.msecnd.net |  |  |  |
+||cdn.samsungcloudsolution.net |  |  |  |
+|connecttv.pelmorex.com # weather app tracking |  |  |  |
+|Coordinator-Production-28516768.us-east-1.elb.amazonaws.com |  |  |  |
+|cpu.samsungelectronics.com |  |  |  |
+|d179kwmlpc4o47.cloudfront.net |  |  |  |
+|d1jwpcr0q4pcq0.cloudfront.net |  |  |  |
+|d1oxlq5h9kq8q5.cloudfront.net # app icons in samsung app store |  |  |  |
+|d2tnx644ijgq6i.cloudfront.net |  |  |  |
+|d3mjsomixevyw7.cloudfront.net |  |  |  |
+|d37ju0xanoz6gh.cloudfront.net |  |  |  |
+|device-metrics-us.amazon.com |  |  |  |
+|fkp.samsungcloudsolution.com |  |  |  |
+|fkp.samsungcloudsolution.net |  |  |  |
+|game.internetat.tv |  |  |  |
+|gld.samsungosp.com |  |  |  |
+|i-stream.pl |  |  |  |
+|log-1.samsungacr.com |  |  |  |
+|log-2.samsungacr.com |  |  |  |
+|log-3.samsungacr.com |  |  |  |
+|log-ingestion.samsungacr.com |  |  |  |
+|log-ingestion-eu.samsungacr.com |  |  |  |
+|log.internetat.tv |  |  |  |
+|musicid.samsungcloudsolution.com |  |  |  |
+|notice.samsungcloudsolution.com |  |  |  |
+|noticecdn.samsungcloudsolution.com |  |  |  |
+|noticefile.samsungcloudsolution.com |  |  |  |
+|oempprd.samsungcloudsolution.com |  |  |  |
+|oempprd.samsungcloudsolution.net |  |  |  |
+|prderrordumphsm.samsungcloudsolution.com |  |  |  |
+|openapi.samsung.com |  |  |  |
+|osb-apps-v2.samsungqbe.com |  |  |  |
+|osb-krsvc.samsungqbe.com |  |  |  |
+|osb-eusvc.samsungqbe.com |  |  |  |
+|osb.samsungqbe.com |  |  |  |
+|pavv.co.kr |  |  |  |
+|pipeaota.com |  |  |  |
+|premium-videos.telly.com |  |  |  |
+|prov.samsungcloudsolution.com |  |  |  |
+|rd.samsungadhub.com |  |  |  |
+|www.samsungotn.net |  |  |  |
+|samsungacr.com |  |  |  |
+|samsungadhub.com |  |  |  |
+|samsungcloudsolution.com |  |  |  |
+|samsungcloudsolution.net |  |  |  |
+|samsungqbe.com |  |  |  |
+|sas.samsungcloudsolution.com |  |  |  |
+|sca.samsung.com |  |  |  |
+|sso.internetat.tv # account login |  |  |  |
+|syncplusconfig.s3.amazonaws.com |  |  |  |
+|targeted-config-test.samsungacr.com |  |  |  |
+|test.samsungrm.net |  |  |  |
+|us-api.samsungyosemite.com |  |  |  |
+|vd.emp.prd.s3.amazonaws.com |  |  |  |
+|vdterms.samsungcloudsolution.com |  |  |  |
+|www.samsungrm.net |  |  |  |
+|samsungelectronics.com |  |  |  |
+|vd.contents.prod.eu.s3.amazonaws.com |  |  |  |
+|data.arqiva.tv |  |  |  |
+|cloud.arqiva.tv |  |  |  |
+|ads.aimitv.com |  |  |  |
+|samsungads.com |  |  |  |
+|gamespromotion.samsungcloudsolution.com |  |  |  |
+
+# END
