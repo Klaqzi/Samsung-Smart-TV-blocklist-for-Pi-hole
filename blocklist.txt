@@ -1,10 +1,10 @@
 # Smart-TV Blocklist for Pi-hole
-# Version: 21.02.2026
+# Version: 22.02.2026
 # Description: collection of domains used by my Samsung Smart TV for telemetry, tracking, ACR, ads, and unwanted network activity
 
 # Samsung
-apu.samsungelectronics.com	# ads, use following regex: [a-z]pu.samsungelectronics.com
-bpu.samsungelectronics.com	# telemetry
+apu.samsungelectronics.com
+bpu.samsungelectronics.com
 cpu.samsungelectronics.com
 dpu.samsungelectronics.com
 epu.samsungelectronics.com
@@ -29,14 +29,14 @@ wpu.samsungelectronics.com
 xpu.samsungelectronics.com
 ypu.samsungelectronics.com
 zpu.samsungelectronics.com
-acr-eu-prd.samsungcloud.tv	# ACR = Automatic Content Recognition, is tracking what you watch, even external content from consoles etc.
-log-config.samsungacr.com  # ACR
-log-ingestion-eu.samsungacr.com # ACR
-config.samsungads.com		# targeted ads, track user engagement
-oempprd.samsungcloudsolution.com	# manages app installation
-tvx.adgrx.com	# Adgear, owned by Samsung, monitors which content is being watched for targeted advertisements
-empdownprd.samsungcloudsolution.com  # used for tracking, might cause problems with SmartHub
-rtb.adgrx.com	# samsung ads, real-time bidding to deliver targeted ads
+acr-eu-prd.samsungcloud.tv
+log-config.samsungacr.com
+log-ingestion-eu.samsungacr.com
+config.samsungads.com
+oempprd.samsungcloudsolution.com
+tvx.adgrx.com
+empdownprd.samsungcloudsolution.com
+rtb.adgrx.com
 ocfconnect-shard-eu02-euwest1.samsungiotcloud.com
 otnprd8.samsungcloudsolution.net
 otnprd9.samsungcloudsolution.net
@@ -44,27 +44,27 @@ otnprd10.samsungcloudsolution.net
 otnprd11.samsungcloudsolution.net
 
 # Netflix
-ichnaea.netflix.com		# preview for shows on netflix
-customerevents.netflix.com	# alias of beacon.netflix.com, used for telemetry, logging and analytical data
-logs.netflix.com		# telemetry etc.
+ichnaea.netflix.com
+customerevents.netflix.com
+logs.netflix.com
 
 # Google / Youtube
-www.google-analytics.com	# telemetry etc.
+www.google-analytics.com
 
 # German TV
-images.ardmediathek.de		# ARD
+images.ardmediathek.de
 audit.nmrodam.com
 
-hbbtv.zdf.de			# ZDF
+hbbtv.zdf.de
 
-be.tvengine.hd-plus-cloud.de	# HD+TV Germany, a platform for satelite and internet TV in Germany
+be.tvengine.hd-plus-cloud.de
 device-manager.hdplus.yottacloud.net
 tvengine.hd-plus-cloud.de
 
-img.welt.de			# Welt.de
+img.welt.de
 www.welt.de
 
-cdn10.itsmy.tv			# itsmy.TV, according to google its for games, cant find any news newer than 2014, seems to be dead?? Also has its origins in Munich.
+cdn10.itsmy.tv
 cdn11.itsmy.tv
 cdn12.itsmy.tv
 cdn13.itsmy.tv
@@ -78,24 +78,24 @@ images-2.wuaki.tv
 images-3.wuaki.tv
 
 #Nielsen
-41697968db8a7aa24710d53c7d84e7c2.redinuid.imrworldwide.com	# Nielsen, company for marketing research, data analytics
+41697968db8a7aa24710d53c7d84e7c2.redinuid.imrworldwide.com
 cde609cab573bb126226c829b0791957.redinuid.imrworldwide.com
 
 #Disney
-config-cd-dmgz.bamgrid.com	# Disney Streaming
+config-cd-dmgz.bamgrid.com
 disney-curated-partner-feeds-prod.bamgrid.com
 
-resources.redbull.tv	# Red Bull TV
+resources.redbull.tv
 
-sportworld-images.watchmi.tv	# Sportworld
+sportworld-images.watchmi.tv
 
-seat-cupra-pk0700-cdn.tvapp-server.de	# Cupra TV-App
+seat-cupra-pk0700-cdn.tvapp-server.de
 
-schauinsland-pk1937-cdn.tvapp-server.de	# TV-App, i have no idea what its used for
+schauinsland-pk1937-cdn.tvapp-server.de
 
 # watchlist
 
-# cdn-0.nflximg.com		#
+# cdn-0.nflximg.com
 # nrdp.prod.cloud.netflix.com
 # nrdp.nccp.netflix.com
 # occ-0-1556-1555.1.nflxso.net
@@ -114,11 +114,11 @@ amauthprd.samsungcloudsolution.com
 api-hub.samsungyosemite.com
 az43064.vo.msecnd.net
 cdn.samsungcloudsolution.net
-connecttv.pelmorex.com # weather app tracking
+connecttv.pelmorex.com
 Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
 d179kwmlpc4o47.cloudfront.net
 d1jwpcr0q4pcq0.cloudfront.net
-d1oxlq5h9kq8q5.cloudfront.net # app icons in samsung app store
+d1oxlq5h9kq8q5.cloudfront.net
 d2tnx644ijgq6i.cloudfront.net
 d3mjsomixevyw7.cloudfront.net
 d37ju0xanoz6gh.cloudfront.net
@@ -127,7 +127,7 @@ fkp.samsungcloudsolution.com
 fkp.samsungcloudsolution.net
 game.internetat.tv
 gld.samsungosp.com
-#gpm.samsungqbe.com # Numerous connection problems, e.g. #82
+#gpm.samsungqbe.com
 i-stream.pl
 log-1.samsungacr.com
 log-2.samsungacr.com
@@ -160,7 +160,7 @@ samsungcloudsolution.net
 samsungqbe.com
 sas.samsungcloudsolution.com
 sca.samsung.com
-sso.internetat.tv # account login
+sso.internetat.tv
 syncplusconfig.s3.amazonaws.com
 targeted-config-test.samsungacr.com
 test.samsungrm.net
@@ -177,3 +177,4 @@ samsungads.com
 gamespromotion.samsungcloudsolution.com
 
 # END
+
