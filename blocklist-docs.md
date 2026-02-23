@@ -58,6 +58,16 @@ For each domain:
 | otnprd10.samsungcloudsolution.net | - | - | |
 | otnprd11.samsungcloudsolution.net | - | - | |
 | tvpndynamiclogopeu.samsungcloud.tv | Content Tracking |  | |
+| osb-v1-alb.samsungqbe.com | Telemetry | | |
+| tvp-ads-log.samsungads.com | Ads | | used to log and report data for Samsung TV Plus |
+
+---
+
+## Apple
+
+| Domain | Category | Description | Notes |
+|--------|----------|-------------|-------|
+| | | | |
 
 ---
 
@@ -159,7 +169,6 @@ For each domain:
 | push.prod.netflix.com |  |  |  |
 | api-global.netflix.com |  |  |  |
 | uiboot.netflix.com |  |  |  |
-| www.google-analytics.com |  |  |  |
 | nrdp52-appboot.netflix.com |  |  |  |
 
 
