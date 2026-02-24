@@ -1,5 +1,5 @@
 # Smart-TV Blocklist for Pi-hole
-# Version: 22.02.2026
+# Version: 24.02.2026
 # Description: collection of domains used by my Samsung Smart TV for telemetry, tracking, ACR, ads, and unwanted network activity
 
 # Samsung
@@ -32,6 +32,9 @@ zpu.samsungelectronics.com
 acr-eu-prd.samsungcloud.tv
 log-config.samsungacr.com
 log-ingestion-eu.samsungacr.com
+log-1.samsungacr.com
+log-2.samsungacr.com
+log-3.samsungacr.com
 config.samsungads.com
 oempprd.samsungcloudsolution.com
 tvx.adgrx.com
@@ -45,6 +48,11 @@ otnprd11.samsungcloudsolution.net
 tvpndynamiclogopeu.samsungcloud.tv
 osb-v1-alb.samsungqbe.com
 tvp-ads-log.samsungads.com
+sca.samsung.com
+sas.samsungcloudsolution.com
+samsungqbe.com
+cdn.samsungcloudsolution.com
+cdn.samsungcloudsolution.net
 
 # Apple
 
@@ -106,7 +114,6 @@ ads.samsungads.com
 amauthprd.samsungcloudsolution.com
 api-hub.samsungyosemite.com
 az43064.vo.msecnd.net
-cdn.samsungcloudsolution.net
 connecttv.pelmorex.com
 Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
 d179kwmlpc4o47.cloudfront.net
@@ -122,11 +129,6 @@ game.internetat.tv
 gld.samsungosp.com
 #gpm.samsungqbe.com
 i-stream.pl
-log-1.samsungacr.com
-log-2.samsungacr.com
-log-3.samsungacr.com
-log-ingestion.samsungacr.com
-log-ingestion-eu.samsungacr.com
 log.internetat.tv
 musicid.samsungcloudsolution.com
 notice.samsungcloudsolution.com
@@ -136,10 +138,6 @@ oempprd.samsungcloudsolution.com
 oempprd.samsungcloudsolution.net
 prderrordumphsm.samsungcloudsolution.com
 openapi.samsung.com
-osb-apps-v2.samsungqbe.com
-osb-krsvc.samsungqbe.com
-osb-eusvc.samsungqbe.com
-osb.samsungqbe.com
 pavv.co.kr
 pipeaota.com
 premium-videos.telly.com
@@ -150,9 +148,6 @@ samsungacr.com
 samsungadhub.com
 samsungcloudsolution.com
 samsungcloudsolution.net
-samsungqbe.com
-sas.samsungcloudsolution.com
-sca.samsung.com
 sso.internetat.tv
 syncplusconfig.s3.amazonaws.com
 targeted-config-test.samsungacr.com

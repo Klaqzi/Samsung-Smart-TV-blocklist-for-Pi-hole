@@ -1,5 +1,5 @@
 Smart-TV Blocklist for Pi-hole Documentation
-Version: 22.02.2026
+Version: 24.02.2026
 Description: collection of domains used by my Samsung Smart TV for telemetry, tracking, ACR, ads, and unwanted network activity
 
 ---
@@ -47,6 +47,9 @@ For each domain:
 | acr-eu-prd.samsungcloud.tv | ACR | Automatic Content Recognition (tracks what you watch incl. HDMI sources) | High privacy impact |
 | log-config.samsungacr.com | ACR | Configuration service for Samsung ACR | |
 | log-ingestion-eu.samsungacr.com | ACR |  | |
+| log-1.samsungacr.com | ACR | | |
+| log-2.samsungacr.com | ACR | | |
+| log-3.samsungacr.com | ACR | | |
 | config.samsungads.com | Ads | targeted ads, tracks user engagement | |
 | tvx.adgrx.com | Ads | monitors watched content for targeted ads | |
 | rtb.adgrx.com | Ads | real-time bidding for targeted ads | |
@@ -60,6 +63,11 @@ For each domain:
 | tvpndynamiclogopeu.samsungcloud.tv | Content Tracking |  | |
 | osb-v1-alb.samsungqbe.com | Telemetry | | |
 | tvp-ads-log.samsungads.com | Ads | | used to log and report data for Samsung TV Plus |
+| sca.samsung.com | | | |
+| sas.samsungcloudsolution.com | | | |
+| samsungqbe.com | | | |
+| cdn.samsungcloudsolution.com | Telemetry | | |
+| cdn.samsungcloudsolution.net | Telemetry | | |
 
 ---
 
@@ -181,7 +189,6 @@ For each domain:
 |amauthprd.samsungcloudsolution.com |  |  |  |
 |api-hub.samsungyosemite.com |  |  |  |
 |az43064.vo.msecnd.net |  |  |  |
-||cdn.samsungcloudsolution.net |  |  |  |
 |connecttv.pelmorex.com # weather app tracking |  |  |  |
 |Coordinator-Production-28516768.us-east-1.elb.amazonaws.com |  |  |  |
 |cpu.samsungelectronics.com |  |  |  |
@@ -197,11 +204,6 @@ For each domain:
 |game.internetat.tv |  |  |  |
 |gld.samsungosp.com |  |  |  |
 |i-stream.pl |  |  |  |
-|log-1.samsungacr.com |  |  |  |
-|log-2.samsungacr.com |  |  |  |
-|log-3.samsungacr.com |  |  |  |
-|log-ingestion.samsungacr.com |  |  |  |
-|log-ingestion-eu.samsungacr.com |  |  |  |
 |log.internetat.tv |  |  |  |
 |musicid.samsungcloudsolution.com |  |  |  |
 |notice.samsungcloudsolution.com |  |  |  |
@@ -211,10 +213,6 @@ For each domain:
 |oempprd.samsungcloudsolution.net |  |  |  |
 |prderrordumphsm.samsungcloudsolution.com |  |  |  |
 |openapi.samsung.com |  |  |  |
-|osb-apps-v2.samsungqbe.com |  |  |  |
-|osb-krsvc.samsungqbe.com |  |  |  |
-|osb-eusvc.samsungqbe.com |  |  |  |
-|osb.samsungqbe.com |  |  |  |
 |pavv.co.kr |  |  |  |
 |pipeaota.com |  |  |  |
 |premium-videos.telly.com |  |  |  |
@@ -226,8 +224,6 @@ For each domain:
 |samsungcloudsolution.com |  |  |  |
 |samsungcloudsolution.net |  |  |  |
 |samsungqbe.com |  |  |  |
-|sas.samsungcloudsolution.com |  |  |  |
-|sca.samsung.com |  |  |  |
 |sso.internetat.tv # account login |  |  |  |
 |syncplusconfig.s3.amazonaws.com |  |  |  |
 |targeted-config-test.samsungacr.com |  |  |  |
